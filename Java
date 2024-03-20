@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ParImparSinCondicionales {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numero = scanner.nextInt();
+        
+       String resultado = (numero & 1) == 0 ? "even" : "odd";
+        
+        System.out.println(resultado);
+        
+        scanner.close();
+    }
+}
